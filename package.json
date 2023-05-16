@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.2.96",
+    "@nuxtjs/vuetify": "^1.12.3",
+    "@pinia/nuxt": "0.4.10",
+    "pinia": "^2.0.36",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "vue": "3.3.2",
+    "vue-router": "^4.2.0",
+    "vue-tabler-icons": "2.20.0",
+    "vue3-perfect-scrollbar": "1.6.1",
+    "vuetify": "3.2.5"
+  },
+  "devDependencies": {
+    "nuxt": "3.4.3"
+  }
+}
