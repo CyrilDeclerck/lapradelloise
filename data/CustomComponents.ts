@@ -119,100 +119,22 @@ const pricePlan =[
 const team =[
   {
     img: "t1.jpg",
-    title: "Michael Doe",
-    subtitle: "Property Specialist",
-    desc: "You can relay on our amazing features list and also our customer services will be great experience.",
-    socialicon: [
-      {
-        url: "/",
-        icon: "mdi mdi-facebook",
-      },
-      {
-        url: "/",
-        icon: "mdi mdi-twitter",
-      },
-      {
-        url: "/",
-        icon: "mdi mdi-instagram",
-      },
-      {
-        url: "/",
-        icon: "mdi mdi-youtube",
-      },
-    ],
+    title: "BASTIEN DECLERCK",
+    subtitle: "Président",
+    desc: "Ancien gérant du \"Au K'haz Croûte\" Technico-commercial"
   },
   {
     img: "t2.jpg",
-    title: "Michael Doe",
-    subtitle: "Property Specialist",
-    desc: "You can relay on our amazing features list and also our customer services will be great experience.",
-    socialicon: [
-      {
-        url: "/",
-        icon: "mdi mdi-facebook",
-      },
-      {
-        url: "/",
-        icon: "mdi mdi-twitter",
-      },
-      {
-        url: "/",
-        icon: "mdi mdi-instagram",
-      },
-      {
-        url: "/",
-        icon: "mdi mdi-youtube",
-      },
-    ],
+    title: "AUDREY TOURSEL",
+    subtitle: "Secrétaire",
+    desc: "Responsable RH",
   },
   {
     img: "t3.jpg",
-    title: "Michael Doe",
-    subtitle: "Property Specialist",
-    desc: "You can relay on our amazing features list and also our customer services will be great experience.",
-    socialicon: [
-      {
-        url: "/",
-        icon: "mdi mdi-facebook",
-      },
-      {
-        url: "/",
-        icon: "mdi mdi-twitter",
-      },
-      {
-        url: "/",
-        icon: "mdi mdi-instagram",
-      },
-      {
-        url: "/",
-        icon: "mdi mdi-youtube",
-      },
-    ],
-  },
-  {
-    img: "t4.jpg",
-    title: "Michael Doe",
-    subtitle: "Property Specialist",
-    desc: "You can relay on our amazing features list and also our customer services will be great experience.",
-    socialicon: [
-      {
-        url: "/",
-        icon: "mdi mdi-facebook",
-      },
-      {
-        url: "/",
-        icon: "mdi mdi-twitter",
-      },
-      {
-        url: "/",
-        icon: "mdi mdi-instagram",
-      },
-      {
-        url: "/",
-        icon: "mdi mdi-youtube",
-      },
-    ],
-  },
+    title: "MAXENCE DUPIRE",
+    subtitle: "Trésorier",
+    desc: "Technico-commercial",
+  }
 ];
 
 /*--Testimonials--*/

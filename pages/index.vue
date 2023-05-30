@@ -11,7 +11,5 @@ import AllCustomComponents from '@/components/section/AllCustomComponents.vue';
     <MainBanner />
     <!-------All Components-------->
     <AllCustomComponents/>
-    <!----Commingsoon ----->
-    <CommingSoon/>
   </div>
 </template>

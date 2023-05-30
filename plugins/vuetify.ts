@@ -49,7 +49,8 @@ const Lighttheme: ThemeDefinition = {
     'error-lighten-5': '#fce2e5',
     'primary-lighten-5': '#e6edfd',
     'accent-lighten-5': '#f4e6fd',
-    
+    'yellow': '#f4ce00'
+
   },
 };
 export default defineNuxtPlugin((nuxtApp) => {

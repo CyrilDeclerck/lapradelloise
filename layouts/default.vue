@@ -1,11 +1,11 @@
 <script setup lang="ts">
-const title = ref("Next-kit - Nuxt3 Typescript Free UI kit built with Vuetify3");
+const title = ref("La pradelloise - 1ere édition - Le 1er octobre 2023, À PRADELLES");
 useHead({
   meta: [{ content: title }],
   titleTemplate: (titleChunk) => {
     return titleChunk
-      ? `${titleChunk} - Nuxt3 Typescript Free UI kit built with Vuetify3`
-      : "Next-kit - Nuxt3 Typescript Free UI kit built with Vuetify3";
+      ? `${titleChunk} - La pradelloise`
+      : "La pradelloise - 1ere édition - Le 1er octobre 2023, À PRADELLES";
   },
 });
 </script>
@@ -14,7 +14,7 @@ useHead({
   <v-app dark>
     <LcHeader/>
     <v-main>
-      <slot />  
+      <slot />
     </v-main>
     <LcFooter/>
   </v-app>

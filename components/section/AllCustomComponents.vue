@@ -31,54 +31,6 @@ import ContactForm from './contact/Contact.vue';
 <template>
     <!----Header Text----->
     <HeaderText />
-    <!----Navigation 1----->
-    <Navigation1 />
-    <!----Navigation 2----->
-    <Navigation2 />
-    <!----Banner Text----->
-    <BannerText/>
-    <!----Brand Banner----->
-    <BrandBanner/>    
-    <!----Work Banner----->
-    <WorkBanner/>
-    <!----Form Banner----->
-    <FormBannerText/>
-    <!----Form Email Banner----->
-    <FormBannerInput/>
-    <!----Feature Text----->
-    <FeatureText/>
-    <!----Feature 1----->
-    <Feature1/>
-    <!----Feature 2----->
-    <Feature2/>
-    <!----Feature 3----->
-    <Feature3/>
-    <!----Portfolio Text----->
-    <PortfolioText/>
-    <!----Portfolio----->
-    <Portfolio/>
-    <!----Price Text----->
-    <PriceText/>
-    <!----Pricing Plans----->
-    <PricingPlans/>
-    <!----Team Text----->
-    <TeamText/>
     <!----Team----->
     <Team/>
-    <!----Testimonials Text----->
-    <TestimonialText/>
-    <!----Testimonials Quotes----->
-    <Testimonial/>
-    <!----Blog ----->
-    <Blog/>
-    <!----Call To Action ----->
-    <CallActionText/>
-    <!----Ask Questions ----->
-    <CallActionAsk/>
-    <!----Apps ----->
-    <AppsButton/>
-    <!----Contact Text ----->
-    <ContactText/>
-    <!----Contact Form ----->
-    <ContactForm/>
 </template>

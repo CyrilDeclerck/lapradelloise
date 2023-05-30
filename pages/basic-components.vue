@@ -11,7 +11,5 @@ import CommingSoon from '@/components/shared/coming-soon/ComingSoon.vue';
     <MainBanner />
     <!-------UI Components-------->
     <UiComponents />
-    <!----Commingsoon ----->
-    <CommingSoon/>
   </div>
 </template>

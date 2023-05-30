@@ -6,6 +6,13 @@
   font-size: 42px;
   line-height: 54px;
   margin: 20px 0 15px;
+  background: #000000;
+  padding: 10px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
 }
 
 .banner-subtitle {
@@ -13,11 +20,12 @@
 }
 
 .banner-wrapper {
-  background: rgb(var(--v-theme-accent));
+  background: url('./images/lapradelloise/main-banner.jpg');
   padding: 20px 0 20px;
   min-height: 600px;
   display: flex;
   align-items: center;
+  background-size: cover;
 }
 
 @media (max-width: 767px) {
