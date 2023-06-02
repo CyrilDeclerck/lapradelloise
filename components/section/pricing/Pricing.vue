@@ -4,7 +4,7 @@ import {pricePlan} from '@/data/CustomComponents';
 </script>
 <template>
   <div>
-    <div class="pricing-component mini-spacer">
+    <div class="pricing-component mini-spacer bg-extra-light">
       <v-container>
         <!-- -----------------------------------------------
             Start Pricing Text
@@ -13,9 +13,9 @@ import {pricePlan} from '@/data/CustomComponents';
           <v-col cols="12" sm="10" md="9" lg="7">
             <div class="text-center">
               <h2 class="section-title font-weight-medium">
-                Simple Pricing to make your Work Effective
+                3 EVENEMENTS EN 1
               </h2>
-              <p class="text-muted">We offer 100% satisafaction and Money back Guarantee</p>
+              <p class="">Les différents parcours traverseront les communes de PRADELLES, BORRE, CAESTRE, STRAZEELE et SEC-BOIS.</p>
             </div>
           </v-col>
         </v-row>
@@ -31,27 +31,31 @@ import {pricePlan} from '@/data/CustomComponents';
             <v-card
               outlined
               elevation="0"
-              class="pricing-card overflow-hidden mb-7"
+              class="pricing-card overflow-hidden mb-7 border rounded-sm flex d-flex flex-column fill-height"
             >
-              <div class="text-center pa-8 border rounded-sm">
+              <div class="text-center pa-8">
+                <v-img
+                  :src="card.image"
+                  height="100px"
+                ></v-img>
                 <h5 class="font-weight-regular font-18">{{card.title}}</h5>
-                <div>
-                  <sup class="text-muted">$</sup>
-                  <span class="price-text">{{card.price}}</span>
-                  <h6 class="font-14 text-uppercase font-weight-regular">{{card.plan}}</h6>
+                <div>{{}}
+                  <template v-if="typeof card.price === 'object'">
+                    <template v-for="(distance, index) in card.price">
+                      <span class="price-text">{{distance}}</span>
+                      <sup class="text-muted">{{card.unit}}</sup>
+                      <span v-if="index + 1 < card.price.length" class="mr-1">OU</span>
+                    </template>
+                  </template>
+                  <template v-else>
+                    <span class="price-text">{{card.price}}</span>
+                    <sup class="text-muted">{{card.unit}}</sup>
+                  </template>
                 </div>
                 <p class="mt-9 text-muted">
                   {{card.desc}}
                 </p>
               </div>
-              <v-btn
-                block
-                large
-                :color="card.buttoncolor"
-                class="text-uppercase rounded-t-0 py-4"
-              >
-                Choose Plan
-              </v-btn>
             </v-card>
           </v-col>
         </v-row>

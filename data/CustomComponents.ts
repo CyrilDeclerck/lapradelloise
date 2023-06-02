@@ -93,25 +93,31 @@ const portfolio =[
 /*--Pricing Plan--*/
 const pricePlan =[
   {
-    title: "Regular Plan",
-    price: "39",
+    title: "Course à pied",
+    price: "10",
+    unit: "km",
     plan: "YEARLY",
-    desc:"The Master license allows you to customize, store and even host your website using your platform",
-    buttoncolor:"primary"
+    desc:"Course à pied chronométrée avec puces",
+    buttoncolor:"primary",
+    image: '/images/lapradelloise/run.png'
   },
   {
-    title: "Master Plan",
-    price: "49",
+    title: "Randonnée pédestre",
+    price: ["8", "12"],
+    unit: "km",
     plan: "YEARLY",
-    desc:"The Master license allows you to customize, store and even host your website using your platform",
-    buttoncolor:"error"
+    desc:"",
+    buttoncolor:"error",
+    image: '/images/lapradelloise/walk.png'
   },
   {
-    title: "Premium Plan",
-    price: "69",
+    title: "Course à pied pour enfants",
+    price: "800m",
+    unit: "M",
     plan: "YEARLY",
-    desc:"The Master license allows you to customize, store and even host your website using your platform",
-    buttoncolor:"primary"
+    desc:"non chronométrée",
+    buttoncolor:"primary",
+    image: '/images/lapradelloise/kid.png'
   },
 ];
 

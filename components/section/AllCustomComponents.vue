@@ -29,8 +29,8 @@ import ContactForm from './contact/Contact.vue';
 </script>
 
 <template>
-    <!----Header Text----->
-    <HeaderText />
-    <!----Team----->
-    <Team/>
+  <HeaderText />
+  <PricingPlans/>
+  <Portfolio/>
+  <Team/>
 </template>
