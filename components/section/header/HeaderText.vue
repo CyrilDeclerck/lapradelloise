@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="mini-spacer project-container bg-yellow">
+    <div class="project-container bg-yellow">
       <v-container>
         <!-- -----------------------------------------------
             Start Header Text
@@ -8,7 +8,7 @@
         <v-row justify="center">
           <v-col cols="12" sm="10" md="9" lg="7">
             <div id="le-projet" class="text-center">
-              <h2 class="ui-title font-weight-bold text-uppercase">Le projet</h2>
+              <h2 class="ui-title font-weight-bold text-uppercase">Le 1<sup>er</sup>octobre 2023, À PRADELLES</h2>
               <p class="">
                 A travers l'organisation de cet évènement, nous souhaitons lier <b>ANIMATION</b> et <b>BONNE ACTION</b>.
                 Nous aimerions faire découvrir notre petit village et ses beaux chemins de campagne. Pradelles étant situé entre Bailleul et Hazebrouck.

@@ -1,6 +1,12 @@
 .ui-title {
   font-size: 36px;
   margin: 20px 0 15px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+  sup {
+    font-size: 9px;
+    top: -22px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -14,4 +20,8 @@
     margin-right: 5px;
     margin-bottom: 5px;
   }
+}
+
+.font-oswald {
+  font-family: 'Oswald', sans-serif;
 }

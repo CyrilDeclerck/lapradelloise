@@ -92,7 +92,7 @@ const pricePlan =[
     price: "10",
     unit: "km",
     plan: "YEARLY",
-    desc:"Course à pied chronométrée avec puces",
+    desc:"chronométrée avec puces",
     buttoncolor:"primary",
     image: '/images/lapradelloise/run.png'
   },
@@ -106,8 +106,8 @@ const pricePlan =[
     image: '/images/lapradelloise/walk.png'
   },
   {
-    title: "Course à pied pour enfants",
-    price: "800m",
+    title: "Course à pied <br/> pour enfants",
+    price: "800",
     unit: "M",
     plan: "YEARLY",
     desc:"non chronométrée",

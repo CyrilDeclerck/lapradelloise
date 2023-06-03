@@ -12,7 +12,6 @@ useHead({
 
 <template>
   <v-app dark>
-    <LcHeader/>
     <v-main>
       <slot />
     </v-main>

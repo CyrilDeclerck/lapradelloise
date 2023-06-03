@@ -5,6 +5,6 @@ import WhiteTLogo from '/images/logos/white-text.png';
 
 <template>
     <NuxtLink to="/" class="d-flex">
-        <img :src="WhiteTLogo" alt="logo"/>
+        <img :src="WhiteTLogo" alt="La pradelloise" width="160"/>
     </NuxtLink>
 </template>

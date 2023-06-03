@@ -12,7 +12,7 @@ import {portfolio} from '@/data/CustomComponents'
         <v-row justify="center">
           <v-col cols="12" sm="10" md="9" lg="7">
             <div class="text-center">
-              <h2 class="section-title font-weight-medium">
+              <h2 class="ui-title font-weight-bold">
                 SPONSORING
               </h2>
             </div>
@@ -27,20 +27,19 @@ import {portfolio} from '@/data/CustomComponents'
         ----------------------------------------------- -->
         <v-row class="mt-8" align="center" justify="center">
           <v-col
-            cols="12"
-            md="4"
-            sm="6"
+            class="d-none d-md-flex"
             v-for="card in portfolio"
             :key="card.title"
           >
-            <v-card class="portfolio-card overflow-hidden card-shadow">
-              <div class="portfolio-img">
-                <v-img :src="`/images/portfolio/${card.img}`" class="img-fluid" max-height="200" cover :alt="card.img" />
-              </div>
-              <v-card-text class="pa-5">
-                <h5 class="font-weight-medium font-18">{{ card.title }}</h5>
-              </v-card-text>
-            </v-card>
+            <v-img :src="`/images/portfolio/${card.img}`" class="img-fluid" max-height="200" :alt="card.img" />
+          </v-col>
+          <v-col
+            cols="6"
+            class="d-flex d-md-none"
+            v-for="card in portfolio"
+            :key="card.title"
+          >
+            <v-img :src="`/images/portfolio/${card.img}`" class="img-fluid" max-height="200" :alt="card.img" />
           </v-col>
         </v-row>
         <!-- -----------------------------------------------

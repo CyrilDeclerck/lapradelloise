@@ -20,21 +20,12 @@
 }
 
 .banner-wrapper {
-  background: url('/images/lapradelloise/main-banner.jpg');
-  padding: 20px 0 20px;
-  min-height: 600px;
-  display: flex;
-  align-items: center;
-  background-size: cover;
 }
 
 @media (max-width: 767px) {
   .banner-title {
     font-size: 29px;
     line-height: 40px;
-  }
-  .banner-wrapper {
-    padding: 90px 0 20px;
   }
 }
 
@@ -151,4 +142,5 @@
 
 .project-container {
   background: #000000;
+  padding: 20px 0 80px;
 }
