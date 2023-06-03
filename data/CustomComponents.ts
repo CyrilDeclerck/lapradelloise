@@ -59,34 +59,29 @@ const feature2 =[
 /*--Portfolio--*/
 const portfolio =[
   {
-    img: "img1.jpg",
-    title: "Branding for Theme Designer",
+    img: "dumes-menuiseries.jpg",
+    title: "Dumes menuiseries",
     subtext: "Digital Marketing",
   },
   {
-    img: "img2.jpg",
-    title: "Button Designs Free",
-    subtext: "Search Engine",
-  },
-  {
-    img: "img3.jpg",
-    title: "Branding & Co Agency",
+    img: "interstellink.png",
+    title: "Interstell'ink",
     subtext: "Admin templates",
   },
   {
-    img: "img4.jpg",
-    title: "Zukandre Phoniex",
-    subtext: "Branding",
-  },
-  {
-    img: "img5.jpg",
-    title: "Sionage Mokcup",
+    img: "vlc-construction.JPG",
+    title: "VLC construction Steenvoorde",
     subtext: "Wll Mockup",
   },
   {
-    img: "img6.jpg",
-    title: "Hard Cover Book Mock",
-    subtext: "Book Covers",
+    img: "milbled-wimez.jpg",
+    title: "Milbled Wimez",
+    subtext: "Branding",
+  },
+  {
+    img: "geiq.png",
+    title: "Geiq - Emploi et handicap",
+    subtext: "Search Engine",
   },
 ];
 

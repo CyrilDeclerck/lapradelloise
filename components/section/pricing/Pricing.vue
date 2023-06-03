@@ -4,7 +4,7 @@ import {pricePlan} from '@/data/CustomComponents';
 </script>
 <template>
   <div>
-    <div class="pricing-component mini-spacer bg-extra-light">
+    <div class="pricing-component mini-spacer">
       <v-container>
         <!-- -----------------------------------------------
             Start Pricing Text
