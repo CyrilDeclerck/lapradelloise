@@ -36,6 +36,7 @@ import {pricePlan} from '@/data/CustomComponents';
               <div class="text-center pa-8 d-flex flex-column fill-height">
                 <v-img
                   :src="card.image"
+                  :alt="card.desc"
                   max-height="100px"
                 ></v-img>
                 <h5 class="ui-title event-title font-weight-regular" v-html="card.title"></h5>

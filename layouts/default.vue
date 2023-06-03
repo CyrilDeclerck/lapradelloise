@@ -8,6 +8,9 @@ useHead({
       : "La pradelloise - 1ere édition - Le 1er octobre 2023, À PRADELLES";
   },
 });
+useSeoMeta({
+  description: "Nous aimerions faire découvrir notre petit village et ses beaux chemins de campagne. Pradelles étant situé entre Bailleul et Hazebrouck."
+})
 </script>
 
 <template>
