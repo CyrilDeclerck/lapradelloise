@@ -69,9 +69,9 @@ const portfolio =[
     subtext: "Admin templates",
   },
   {
-    img: "vlc-construction.JPG",
-    title: "VLC construction Steenvoorde",
-    subtext: "Wll Mockup",
+    img: "saveursentremonts.jpg",
+    title: "Saveurs entre monts",
+    subtext: "Search Engine",
   },
   {
     img: "milbled-wimez.jpg",
@@ -81,6 +81,26 @@ const portfolio =[
   {
     img: "geiq.png",
     title: "Geiq - Emploi et handicap",
+    subtext: "Search Engine",
+  },
+  {
+    img: "immersion.jpg",
+    title: "Immersion Vélo",
+    subtext: "Search Engine",
+  },
+  {
+    img: "coiffee.jpg",
+    title: "Coif'fée & l'instant Parf'fée",
+    subtext: "Search Engine",
+  },
+  {
+    img: "vlc-construction.JPG",
+    title: "VLC construction Steenvoorde",
+    subtext: "Wll Mockup",
+  },
+  {
+    img: "vergers.jpg",
+    title: "Les vergers de Meteren",
     subtext: "Search Engine",
   },
 ];

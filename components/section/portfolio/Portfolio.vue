@@ -27,15 +27,8 @@ import {portfolio} from '@/data/CustomComponents'
         ----------------------------------------------- -->
         <v-row class="mt-8" align="center" justify="center">
           <v-col
-            class="d-none d-md-flex"
-            v-for="card in portfolio"
-            :key="card.title"
-          >
-            <v-img :src="`/images/portfolio/${card.img}`" class="img-fluid" max-height="200" :alt="card.img" />
-          </v-col>
-          <v-col
             cols="6"
-            class="d-flex d-md-none"
+            lg="4"
             v-for="card in portfolio"
             :key="card.title"
           >
