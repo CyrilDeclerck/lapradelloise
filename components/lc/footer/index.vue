@@ -29,15 +29,26 @@
         <v-col cols="12" md="4" sm="6" class="px-xs-0">
           <h4 class="font-weight-regular font-18">Suivez-nous</h4>
           <div class="social-icons mt-5">
-            <a href="#">
+            <a href="https://www.facebook.com/lapradelloise" target="_blank" rel="noopener, noreferrer">
               <i class="mdi mdi-facebook mdi-36px"></i>
             </a>
           </div>
         </v-col>
       </v-row>
+      <div class="footer-bottom-bar mt-sm-5 mt-0 font-14 ml-sm-0 ml-n3">
+        <div class="d-block d-sm-flex align-center justify-center">
+          <div>
+            <div class="d-sm-flex align-center">
+              <a href="/documents/reglement.pdf" target="_blank" rel="noopener, noreferrer" class="link px-sm-4 ps-0">Règlement</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </v-container>
   </v-footer>
   <!-- -----------------------------------------------
         End Footer
   ----------------------------------------------- -->
 </template>
+<script setup lang="ts">
+</script>

@@ -15,7 +15,7 @@ import {pricePlan} from '@/data/CustomComponents';
               <h2 class="ui-title font-weight-bold text-uppercase mt-0">
                 3 évènements en 1
               </h2>
-              <p class="">Les différents parcours traverseront les communes de<br/> PRADELLES, BORRE, CAESTRE, STRAZEELE et SEC-BOIS.</p>
+              <p class="">Les différents parcours traverseront les communes de<br/> PRADELLES, BORRE, CAESTRE et STRAZEELE</p>
             </div>
           </v-col>
         </v-row>
