@@ -22,7 +22,6 @@ export default defineNuxtConfig({
     devServerHandlers: [],
     hooks: {
     },
-
   })
 
 

@@ -103,35 +103,80 @@ const portfolio =[
     title: "Les vergers de Meteren",
     subtext: "Search Engine",
   },
+  {
+    img: "canondor.jpg",
+    title: "Au canon d'or",
+    subtext: "Search Engine",
+  },
+  {
+    img: "clefenmain.jpg",
+    title: "Clef en main",
+    subtext: "Search Engine",
+  },
+  {
+    img: "creditmutuel.png",
+    title: "Crédit Mutuel",
+    subtext: "Search Engine",
+  },
+  {
+    img: "flandresaudit.png",
+    title: "Flandres Audit",
+    subtext: "Search Engine",
+  },
+  {
+    img: "franchet.jpg",
+    title: "Franchet",
+    subtext: "Search Engine",
+  },
+  {
+    img: "friterienouveaumonde.webp",
+    title: "Fiterie du nouveau monde",
+    subtext: "Search Engine",
+  },
+  {
+    img: "hedicom.png",
+    title: "Hedicom",
+    subtext: "Search Engine",
+  },
+  {
+    img: "hopsomer.jpg",
+    title: "Hopsomer",
+    subtext: "Search Engine",
+  },
+  {
+    img: "valoxy.jpg",
+    title: "Valoxy",
+    subtext: "Search Engine",
+  },
 ];
 
 /*--Pricing Plan--*/
 const pricePlan =[
   {
-    title: "Course à pied",
+    title: "Course à pied <br/> Route & Chemin",
     price: "10",
     unit: "km",
     plan: "YEARLY",
-    desc:"chronométrée avec puces",
-    buttoncolor:"primary",
+    desc:"(départ: 10h)",
+    buttoncolor:"yellow",
     image: '/images/lapradelloise/run.png'
   },
   {
-    title: "Randonnée pédestre",
+    title: "Randonnée",
     price: ["8", "12"],
     unit: "km",
     plan: "YEARLY",
-    desc:"",
-    buttoncolor:"error",
+    desc:"(départ de 8h30 à 10h)",
+    buttoncolor:"yellow",
     image: '/images/lapradelloise/walk.png'
   },
   {
-    title: "Course à pied <br/> pour enfants",
+    title: "Course enfants",
     price: "800",
     unit: "M",
     plan: "YEARLY",
-    desc:"non chronométrée",
-    buttoncolor:"primary",
+    desc:"(départ : 11h30 - gratuit)",
+    buttoncolor:"yellow",
     image: '/images/lapradelloise/kid.png'
   },
 ];

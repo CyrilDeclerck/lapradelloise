@@ -39,24 +39,35 @@ import {pricePlan} from '@/data/CustomComponents';
                   :alt="card.desc"
                   max-height="100px"
                 ></v-img>
-                <h5 class="ui-title event-title font-weight-regular" v-html="card.title"></h5>
-                <p v-if="card.desc" class="text-muted">
-                  {{card.desc}}
-                </p>
-                <div class="mt-auto">
+                <div class="<">
                   <template v-if="typeof card.price === 'object'">
                     <template v-for="(distance, index) in card.price">
-                      <span class="price-text font-oswald">{{distance}}</span>
+                      <span class="price-text font-oswald text-yellow">{{distance}}</span>
                       <sup class="text-muted">{{card.unit}}</sup>
                       <span v-if="index + 1 < card.price.length" class="mr-1">OU</span>
                     </template>
                   </template>
                   <template v-else>
-                    <span class="price-text font-oswald">{{card.price}}</span>
+                    <span class="price-text font-oswald text-yellow">{{card.price}}</span>
                     <sup class="text-muted">{{card.unit}}</sup>
                   </template>
                 </div>
+                <h5 class="ui-title event-title font-weight-regular" v-html="card.title"></h5>
+                <p v-if="card.desc" class="text-muted mt-auto">
+                  {{card.desc}}
+                </p>
               </div>
+              <v-btn
+                block
+                large
+                href="https://www.payasso.fr/lapradelloise2023/inscriptions"
+                target="_blank"
+                rel="noopener, noreferrer"
+                :color="card.buttoncolor"
+                class="text-uppercase rounded-t-0 py-4"
+              >
+                  S'inscrire
+              </v-btn>
             </v-card>
           </v-col>
         </v-row>
