@@ -39,7 +39,7 @@
         <div class="d-block d-sm-flex align-center justify-center">
           <div>
             <div class="d-sm-flex align-center">
-              <a href="/documents/reglement.pdf" target="_blank" rel="noopener, noreferrer" class="link px-sm-4 ps-0">Règlement</a>
+              <a href="/documents/reglement.pdf" target="_blank" rel="noopener, noreferrer" class="link px-sm-4 ps-0 mr-2">Règlement</a>
               <a href="/documents/autorisation-mineur.pdf" target="_blank" rel="noopener, noreferrer" class="link px-sm-4 ps-0">Autorisation pour mineur</a>
             </div>
           </div>
