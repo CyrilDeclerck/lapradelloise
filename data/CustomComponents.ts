@@ -158,6 +158,7 @@ const pricePlan =[
     unit: "km",
     plan: "YEARLY",
     desc:"(départ: 10h)",
+    link: 'https://www.payasso.fr/lapradelloise2023/inscriptions',
     buttoncolor:"yellow",
     image: '/images/lapradelloise/run.png'
   },
@@ -167,6 +168,7 @@ const pricePlan =[
     unit: "km",
     plan: "YEARLY",
     desc:"(départ de 8h30 à 10h)",
+    link: 'https://www.payasso.fr/lapradelloise/randonnees',
     buttoncolor:"yellow",
     image: '/images/lapradelloise/walk.png'
   },
@@ -174,6 +176,7 @@ const pricePlan =[
     title: "Course enfants",
     price: "800",
     unit: "M",
+    link: 'https://www.payasso.fr/lapradelloise2023/inscriptions',
     plan: "YEARLY",
     desc:"(départ : 11h30 - gratuit)",
     buttoncolor:"yellow",

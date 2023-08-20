@@ -60,7 +60,7 @@ import {pricePlan} from '@/data/CustomComponents';
               <v-btn
                 block
                 large
-                href="https://www.payasso.fr/lapradelloise2023/inscriptions"
+                :href="card.link"
                 target="_blank"
                 rel="noopener, noreferrer"
                 :color="card.buttoncolor"
