@@ -31,6 +31,7 @@ import ContactForm from './contact/Contact.vue';
 <template>
   <HeaderText />
   <PricingPlans/>
+  <CallActionAsk />
   <Portfolio/>
   <Team/>
 </template>

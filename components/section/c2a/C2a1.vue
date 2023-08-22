@@ -1,23 +1,25 @@
 <template>
   <div>
-    <div class="bg-primary py-6">
+    <div class="bg-dark py-6">
       <v-container>
         <!-- -----------------------------------------------
             Start Call-2-Action
         ----------------------------------------------- -->
         <div class="d-block d-sm-flex align-center">
           <h2 class="c2a-title text-white font-weight-medium">
-            Are you happy with what we offer? Ask for Free Quote
+            Envie de nous soutenir ?
           </h2>
           <div class="ml-auto mt-5 mt-md-0">
             <v-btn
-              to="/"
+              href="https://www.payasso.fr/lapradelloise/dons"
               variant="outlined"
+              target="_blank"
+              rel="noopener, noreferrer"
               color="white"
               class="px-sm-7 py-sm-4"
               block
             >
-              Ask for Quatation
+              Faites un don
             </v-btn>
           </div>
         </div>

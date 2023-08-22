@@ -173,7 +173,7 @@ const pricePlan =[
     image: '/images/lapradelloise/walk.png'
   },
   {
-    title: "Course enfants",
+    title: "Course enfants <br/> de 3 à 10 ans",
     price: "800",
     unit: "M",
     link: 'https://www.payasso.fr/lapradelloise2023/inscriptions',
