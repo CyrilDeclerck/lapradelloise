@@ -10,7 +10,7 @@ export default defineNuxtConfig({
       },
     modules: [
       '@pinia/nuxt',
-      ['@storyblok/nuxt', { accessToken: '7pKmwTroI9z0iNfGRtcliwtt' }]
+      ['@storyblok/nuxt', { accessToken: process.env.STORYBLOK_ACCESS_TOKEN }]
     ],
     vite: {
       define: {

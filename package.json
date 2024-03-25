@@ -12,7 +12,6 @@
     "@nuxtjs/vuetify": "^1.12.3",
     "@pinia/nuxt": "0.4.10",
     "@storyblok/nuxt": "^5.7.3",
-    "@vercel/analytics": "^1.0.1",
     "pinia": "^2.0.36",
     "sass": "^1.62.1",
     "sass-loader": "^13.2.2",
