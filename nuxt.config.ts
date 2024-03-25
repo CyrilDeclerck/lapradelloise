@@ -2,14 +2,15 @@
 export default defineNuxtConfig({
     ssr: true,
     typescript: {
-        shim: false
-      },
+      shim: false
+    },
     build: {
       //   extractCSS: false,
         transpile: ["vuetify"],
       },
     modules: [
       '@pinia/nuxt',
+      ['@storyblok/nuxt', { accessToken: process.env.STORYBLOK_ACCESS_TOKEN }]
     ],
     vite: {
       define: {

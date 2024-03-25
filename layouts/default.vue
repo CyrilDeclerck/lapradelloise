@@ -16,6 +16,7 @@ useSeoMeta({
 <template>
   <v-app dark>
     <v-main>
+      <LcHeader/>
       <slot />
     </v-main>
     <LcFooter/>
