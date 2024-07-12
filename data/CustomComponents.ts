@@ -89,19 +89,9 @@ const portfolio =[
     subtext: "Search Engine",
   },
   {
-    img: "coiffee.jpg",
-    title: "Coif'fée & l'instant Parf'fée",
-    subtext: "Search Engine",
-  },
-  {
     img: "vlc-construction.JPG",
     title: "VLC construction Steenvoorde",
     subtext: "Wll Mockup",
-  },
-  {
-    img: "vergers.jpg",
-    title: "Les vergers de Meteren",
-    subtext: "Search Engine",
   },
   {
     img: "canondor.jpg",
@@ -119,15 +109,15 @@ const portfolio =[
     subtext: "Search Engine",
   },
   {
-    img: "flandresaudit.png",
-    title: "Flandres Audit",
-    subtext: "Search Engine",
-  },
-  {
     img: "franchet.jpg",
     title: "Franchet",
     subtext: "Search Engine",
   },
+{
+	img: "sitio.jpg",
+	title: "Sitio",
+	subtext: "Search Engine",
+},
   {
     img: "friterienouveaumonde.webp",
     title: "Fiterie du nouveau monde",
@@ -136,11 +126,6 @@ const portfolio =[
   {
     img: "hedicom.png",
     title: "Hedicom",
-    subtext: "Search Engine",
-  },
-  {
-    img: "hopsomer.jpg",
-    title: "Hopsomer",
     subtext: "Search Engine",
   },
   {
@@ -158,7 +143,7 @@ const pricePlan =[
     unit: "km",
     plan: "YEARLY",
     desc:"(départ: 10h)",
-    link: 'https://www.payasso.fr/lapradelloise2023/inscriptions',
+    link: 'https://fr.milesrepublic.com/event/la-pradelloise-11274',
     buttoncolor:"yellow",
     image: '/images/lapradelloise/run.png'
   },
@@ -168,7 +153,7 @@ const pricePlan =[
     unit: "km",
     plan: "YEARLY",
     desc:"(départ de 8h30 à 10h)",
-    link: 'https://www.payasso.fr/lapradelloise/randonnees',
+    link: 'https://fr.milesrepublic.com/event/la-pradelloise-11274',
     buttoncolor:"yellow",
     image: '/images/lapradelloise/walk.png'
   },
@@ -176,7 +161,7 @@ const pricePlan =[
     title: "Course enfants <br/> de 3 à 10 ans",
     price: "800",
     unit: "M",
-    link: 'https://www.payasso.fr/lapradelloise2023/inscriptions',
+    link: 'https://fr.milesrepublic.com/event/la-pradelloise-11274',
     plan: "YEARLY",
     desc:"(départ : 11h30 - gratuit)",
     buttoncolor:"yellow",
@@ -192,6 +177,12 @@ const team =[
     subtitle: "Président",
     desc: "Ancien gérant du \"Au K'haz Croûte\" Technico-commercial"
   },
+	{
+		img: "t5.jpg",
+		title: "ANGÈLE DECLERCK",
+		subtitle: "Communication",
+		desc: "Esthéticienne"
+	},
   {
     img: "t2.jpg",
     title: "AUDREY TOURSEL",

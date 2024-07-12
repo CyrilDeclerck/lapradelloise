@@ -26,7 +26,7 @@ import {team} from '@/data/CustomComponents';
             Start Team
         ----------------------------------------------- -->
         <v-row justify="center" class="mt-13">
-          <v-col cols="12" md="4" sm="4" v-for="card in team" :key="card.title">
+          <v-col cols="12" md="3" sm="6" v-for="card in team" :key="card.title">
             <v-card elevation="0" class="team-card mb-7">
               <div class="social-overlay overflow-hidden">
                 <v-avatar size="180">

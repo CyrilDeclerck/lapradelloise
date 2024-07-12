@@ -1,11 +1,11 @@
 <script setup lang="ts">
-const title = ref("La pradelloise - 1ere édition - Le 1er octobre 2023, À PRADELLES");
+const title = ref("La pradelloise - 2ème édition - Le 13 octobre 2024, À PRADELLES");
 useHead({
   meta: [{ content: title }],
   titleTemplate: (titleChunk) => {
     return titleChunk
       ? `${titleChunk} - La pradelloise`
-      : "La pradelloise - 1ere édition - Le 1er octobre 2023, À PRADELLES";
+      : "La pradelloise - 2ème édition - Le 13 octobre 2024, À PRADELLES";
   },
 });
 useSeoMeta({
