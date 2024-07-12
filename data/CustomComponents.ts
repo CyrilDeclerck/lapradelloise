@@ -133,6 +133,12 @@ const portfolio =[
     title: "Valoxy",
     subtext: "Search Engine",
   },
+	{
+		img: "adflandrespaysages.jpg",
+		title: "AD Flandres Paysages",
+		subtext: "Search Engine",
+	},
+
 ];
 
 /*--Pricing Plan--*/
