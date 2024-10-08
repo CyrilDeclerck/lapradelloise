@@ -158,7 +158,7 @@ const pricePlan =[
     price: ["8", "12"],
     unit: "km",
     plan: "YEARLY",
-    desc:"(départ de 8h30 à 10h)",
+    desc:"(départ de 8h30 à 9h30)",
     link: 'https://fr.milesrepublic.com/event/la-pradelloise-11274',
     buttoncolor:"yellow",
     image: '/images/lapradelloise/walk.png'
@@ -169,7 +169,7 @@ const pricePlan =[
     unit: "M",
     link: 'https://fr.milesrepublic.com/event/la-pradelloise-11274',
     plan: "YEARLY",
-    desc:"(départ : 11h30 - gratuit)",
+    desc:"(départ : 11h30 - 2€)",
     buttoncolor:"yellow",
     image: '/images/lapradelloise/kid.png'
   },
